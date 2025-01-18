@@ -1,4 +1,4 @@
-package org.eran.project.screen.details
+package org.eran.project.screens.details
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize

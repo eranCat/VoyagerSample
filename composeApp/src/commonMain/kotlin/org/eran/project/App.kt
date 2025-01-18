@@ -3,6 +3,7 @@ package org.eran.project
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.material.BottomNavigation
 import androidx.compose.material.BottomNavigationItem
+import androidx.compose.material.Icon
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Scaffold
 import androidx.compose.material.Text
@@ -47,6 +48,6 @@ private fun RowScope.TabNavigationItem(tab: Tab){
         selected = tabNavigator.current == tab,
         onClick = {tabNavigator.current = tab},
         label = { Text(tab.options.title) },
-        icon = {}
+        icon = { tab.options.icon?.let { Icon(painter = it, contentDescription = tab.options.title) } }
     )
 }

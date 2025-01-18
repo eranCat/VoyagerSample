@@ -1,4 +1,4 @@
-package org.eran.project.screen.home
+package org.eran.project.screens.home
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -9,7 +9,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import cafe.adriel.voyager.core.screen.Screen
 import cafe.adriel.voyager.navigator.LocalNavigator
-import org.eran.project.screen.details.DetailsScreen
+import org.eran.project.screens.details.DetailsScreen
 
 class HomeScreen : Screen{
 
